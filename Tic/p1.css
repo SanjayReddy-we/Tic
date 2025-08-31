@@ -1,0 +1,49 @@
+body{
+    background-color: aqua;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 70vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    font-size: 8vmin;
+    color: #f04d9c;
+    background-color: aquamarine;
+}
+#re{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: rgb(245, 238, 238);
+    border-radius: 1rem;
+
+}
+#msg{
+    color: aliceblue;
+    font-size: 5vim;
+}
+.msg-container{
+    height: 30vim;
+}
+.hide{
+    display: none;
+}
